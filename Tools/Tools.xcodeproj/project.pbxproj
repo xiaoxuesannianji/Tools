@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5253BF491FB532E6001D3F58 /* W_NSString+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 5253BF481FB532E6001D3F58 /* W_NSString+Extension.m */; };
+		5253BF4C1FB533F3001D3F58 /* W_UIButton+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 5253BF4A1FB533F3001D3F58 /* W_UIButton+Extension.m */; };
+		5253BF521FB56DE2001D3F58 /* W_Extension.h in Sources */ = {isa = PBXBuildFile; fileRef = 5253BF511FB56DE2001D3F58 /* W_Extension.h */; };
+		5253BF551FB56E69001D3F58 /* W_ExtensionConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 5253BF541FB56E69001D3F58 /* W_ExtensionConst.m */; };
 		527E23891FB485E1003567D8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 527E23881FB485E1003567D8 /* AppDelegate.m */; };
 		527E238C1FB485E1003567D8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 527E238B1FB485E1003567D8 /* ViewController.m */; };
 		527E238F1FB485E1003567D8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 527E238D1FB485E1003567D8 /* Main.storyboard */; };
@@ -15,6 +19,7 @@
 		527E23971FB485E1003567D8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 527E23961FB485E1003567D8 /* main.m */; };
 		527E23A11FB485E1003567D8 /* ToolsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 527E23A01FB485E1003567D8 /* ToolsTests.m */; };
 		527E23AC1FB485E1003567D8 /* ToolsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 527E23AB1FB485E1003567D8 /* ToolsUITests.m */; };
+		52B05FC01FB5A8B200C8E595 /* W_UITextField+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 52B05FBF1FB5A8B200C8E595 /* W_UITextField+Extension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +40,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5253BF471FB532E6001D3F58 /* W_NSString+Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "W_NSString+Extension.h"; sourceTree = "<group>"; };
+		5253BF481FB532E6001D3F58 /* W_NSString+Extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "W_NSString+Extension.m"; sourceTree = "<group>"; };
+		5253BF4A1FB533F3001D3F58 /* W_UIButton+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "W_UIButton+Extension.m"; sourceTree = "<group>"; };
+		5253BF4B1FB533F3001D3F58 /* W_UIButton+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "W_UIButton+Extension.h"; sourceTree = "<group>"; };
+		5253BF511FB56DE2001D3F58 /* W_Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = W_Extension.h; sourceTree = "<group>"; };
+		5253BF531FB56E69001D3F58 /* W_ExtensionConst.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = W_ExtensionConst.h; sourceTree = "<group>"; };
+		5253BF541FB56E69001D3F58 /* W_ExtensionConst.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = W_ExtensionConst.m; sourceTree = "<group>"; };
 		527E23841FB485E1003567D8 /* Tools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tools.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		527E23871FB485E1003567D8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		527E23881FB485E1003567D8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +63,8 @@
 		527E23A71FB485E1003567D8 /* ToolsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToolsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		527E23AB1FB485E1003567D8 /* ToolsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ToolsUITests.m; sourceTree = "<group>"; };
 		527E23AD1FB485E1003567D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52B05FBE1FB5A8B200C8E595 /* W_UITextField+Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "W_UITextField+Extension.h"; sourceTree = "<group>"; };
+		52B05FBF1FB5A8B200C8E595 /* W_UITextField+Extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "W_UITextField+Extension.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +92,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5253BF461FB53229001D3F58 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				5253BF511FB56DE2001D3F58 /* W_Extension.h */,
+				5253BF531FB56E69001D3F58 /* W_ExtensionConst.h */,
+				5253BF541FB56E69001D3F58 /* W_ExtensionConst.m */,
+				5253BF471FB532E6001D3F58 /* W_NSString+Extension.h */,
+				5253BF481FB532E6001D3F58 /* W_NSString+Extension.m */,
+				5253BF4B1FB533F3001D3F58 /* W_UIButton+Extension.h */,
+				5253BF4A1FB533F3001D3F58 /* W_UIButton+Extension.m */,
+				52B05FBE1FB5A8B200C8E595 /* W_UITextField+Extension.h */,
+				52B05FBF1FB5A8B200C8E595 /* W_UITextField+Extension.m */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
 		527E237B1FB485E1003567D8 = {
 			isa = PBXGroup;
 			children = (
@@ -101,6 +131,7 @@
 		527E23861FB485E1003567D8 /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				5253BF461FB53229001D3F58 /* Extension */,
 				527E23871FB485E1003567D8 /* AppDelegate.h */,
 				527E23881FB485E1003567D8 /* AppDelegate.m */,
 				527E238A1FB485E1003567D8 /* ViewController.h */,
@@ -266,8 +297,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				527E238C1FB485E1003567D8 /* ViewController.m in Sources */,
+				52B05FC01FB5A8B200C8E595 /* W_UITextField+Extension.m in Sources */,
+				5253BF521FB56DE2001D3F58 /* W_Extension.h in Sources */,
 				527E23971FB485E1003567D8 /* main.m in Sources */,
+				5253BF551FB56E69001D3F58 /* W_ExtensionConst.m in Sources */,
+				5253BF4C1FB533F3001D3F58 /* W_UIButton+Extension.m in Sources */,
 				527E23891FB485E1003567D8 /* AppDelegate.m in Sources */,
+				5253BF491FB532E6001D3F58 /* W_NSString+Extension.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
